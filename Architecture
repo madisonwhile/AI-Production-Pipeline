@@ -1,1 +1,15 @@
+##Overall Workflow
+A modular node-based content pipeline which was built in Figma Weave, designed to produce 10 styled image prompts per garment.
 
+---
+##The stages
+1. Product input - the garment images and a short brand/scene direction text are imported as the source inputs.
+2. Brand visual guide - up to 6 reference photos feed into an LLM node alongside a custom visual guide generator prompt, which analyses the refernces and outputs a brand style guide specific to the brand.
+3. Prompt generator - a second LLM node takes the brand style guide output plus the garment images and automatically writes 10 shoot-ready image prompts.
+
+---
+##The nodes
+Nodes A - garment iamges
+Node B - short brand/scene direction
+Nodes C - up to 6 reference images
+Node D - visual guide generator prompt
