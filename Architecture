@@ -13,3 +13,6 @@ Nodes A - garment iamges
 Node B - short brand/scene direction
 Nodes C - up to 6 reference images
 Node D - visual guide generator prompt
+Node E - LLM node, which runs the visual and guide prompt with reference images and outputs detailed brand style guide
+Node F1 & F2 - prompt assistants 
+Node G1 & G2 - any LLM, which takes visual guide output + garment images and then outputs 5 detailed shoot prompts each
