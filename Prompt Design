@@ -1,1 +1,24 @@
+##Initial prompt strategy
+There was meant to be a node H where it would actually provide image outputs. However I tried this and the image models provided by Figma Weave provided unappealing results. 
+So I got rid of that step, and went with copying the prompts into Higgsfield myself.
 
+---
+##Problems Encountered 
+- I had expected one Node G to produce 10 highly detialed prompts but the prompts kept getting cut off. So I had split it into two node G's, instead creating 5 prompts each.
+- I had issues with the photo shot outputs, they felt too "perfect". The model's complection's were too pristine. So I had to adjust the prompt assistants to make the prompts include human imperfections.
+- The prompts kept including branded shoes on the models. I didn't want logos and names, so I also included that in the prompt assistants rules. 
+
+---
+##Examples
+- I had only tested with an example clothing brand that I made up. I could try use a different type of industry to test if it will work for any other products.
+- Also, I duplicated this workflow an additonal 3 times but each one has a different photoshoot style. So this one is specfically for catalogue style photoshoots, but I had the others be campaign, organic lifestyle and flatlays/close ups.
+This shows this workflow can be flexible as long as you change the prompts and reference images for the style you want. However, I found it could be more even more flexible without me needing to change prompts and images each time.
+
+---
+##Lessons Learnt
+- Systems will outperform giant prompts
+- Manual workflows don't scale
+- Every new brand or style shoudldn't require rebuilding the workflow
+
+---
+##This workflow inspired me to build my AI E-commerce Engine. As I mentioned, building this I realised this can become even more flexible and automated. Which led me to build the Python version.
