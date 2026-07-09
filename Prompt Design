@@ -9,6 +9,12 @@ So I got rid of that step, and went with copying the prompts into Higgsfield mys
 - The prompts kept including branded shoes on the models. I didn't want logos and names, so I also included that in the prompt assistants rules. 
 
 ---
+##Lessons Learnt
+- Systems will outperform giant prompts
+- Manual workflows don't scale
+- Every new brand or style shoudldn't require rebuilding the workflow
+
+---
 ##Examples
 - I had only tested with an example clothing brand that I made up. I could try use a different type of industry to test if it will work for any other products.
 - Also, I duplicated this workflow an additonal 3 times but each one has a different photoshoot style. So this one is specfically for catalogue style photoshoots, but I had the others be campaign, organic lifestyle and flatlays/close ups.
